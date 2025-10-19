@@ -1,0 +1,88 @@
+:root {--verde-gui: #568D66;}
+:root {--amarelo-BB: #fca311;}
+:root {--azul-gui: #aaddff;}
+:root {--vermelho-shoyu: #a22c29;}
+
+body {
+    overflow-x: hidden;
+    background-color: #dcdfe5
+}
+
+#meio {
+        margin: 15px;
+}
+
+#meio h1 {
+    color: #a22c29;
+}
+
+#top {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    background-color: #568D66;
+    width: 100%;
+    max-height: 80px;
+    z-index: 20;
+}
+
+h1 {
+    color: navy;
+    margin: auto;
+}
+
+#rodape {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    padding: 10px;
+    background-color: var(--amarelo-BB);
+    width: 100%;
+    z-index: 20;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.forums {
+    background-color: var(--azul-gui);
+    border: 2px var(--verde-gui) solid;
+    padding: 5px;
+    width: 90%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#output, #pagina {
+    z-index: 10;
+    margin-top: 100px;
+    height: 400px;
+    width: 90%;
+    border: 1px var(--amarelo-BB) solid;
+    justify-self: center;
+    text-align: center;
+    padding: 10px;
+    color: var(--vermelho-shoyu);
+    overflow-y: auto;
+}
+
+#add{
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    color: var(--azul-gui);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.bodypágin{
+    background-color: blanchedalmond;
+}
+
+.imagemgrande{
+    width: 90%;
+    margin-left: 5%;
+}

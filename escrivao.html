@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guri HUB - forums</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+    <script src="server.js"></script>
+    <link rel="shortcut icon" href="https://cdn.meutimao.com.br/_upload/forum/2025/03/24/espera_om.png"
+        type="image/png-icon">
+</head>
+
+<!--https://console.firebase.google.com/u/0/project/lista-do-mercado-54717/database/lista-do-mercado-54717-default-rtdb/data?hl=pt-br-->
+
+<body>
+    <div id="top">
+        <h1>Adicionar Forum</h1>
+    </div>
+    <div id="pagina">
+        <label>NAME</label><input id="forumname"><br><br>
+        <label>TOP</label><input id="forumtop"><br><br>
+        <label>DESCRIÇÃO</label><input id="forumdesc"><br><br>
+        <label>CURRICULO</label><input id="forumc"><br><br>
+        <button onclick="addForum()">Publicar</button>
+    </div>
+    <div id="rodape">
+        <a href="/">Voltar a Pagina Inicial</a>
+    </div>
+</body>
+
+</html>
